@@ -1,0 +1,39 @@
+:root {
+    /*Cores*/
+    --rosa-fundo:  #FFE4E1;
+    --bege-input:  #FDF8F0;
+    --rosa-medio:  #EFA3B0;
+    --rosa-escuro: #C94C66;
+    --verde-suave: #A3B18A;
+    --cinza:       #BFBFBF;
+    --amarelo:     #FFF3B0;
+
+    /*Tipografia*/
+    --fredoka: "Fredoka", system-ui, -apple-system, sans-serif;
+    --poppins: "Poppins", system-ui, -apple-system, sans-serif;
+
+
+    /* ===== Espaçamento (escala 4px) ===== */
+    --space-1: 0.25rem; /*  4px */
+    --space-2: 0.50rem; /*  8px */
+    --space-3: 0.75rem; /* 12px */
+    --space-4: 1.00rem; /* 16px */
+    --space-5: 1.25rem; /* 20px */
+    --space-6: 1.50rem; /* 24px */
+    --space-7: 1.75rem; /* 28px */
+    --space-8: 2.00rem; /* 32px */
+  
+    /* ===== Radius ===== */
+    --radius-sm: 0.5rem; /*  8px */
+    --radius-md: 1.0rem; /*  16px */
+    --radius-pill: 999rem;
+    
+    /* ===== Largura máxima do container ===== */
+    --container-max: 56rem; /* 896=px */
+
+    /* ===== Z-index ===== */
+    --z-bg: 0;
+    --z-content: 1;
+    --z-fab: 2;
+}
+  

@@ -1,0 +1,9 @@
+.logo{
+  width: 5rem;                      /* 80px */
+  height: 5rem;                     /* 80px */
+  margin: 0 auto var(--space-1);    /* 1rem */
+  display: grid;
+  place-items: center;
+  font-size: 3rem;                  /* 48px */
+  color: var(--rosa-escuro);
+}

@@ -1,0 +1,30 @@
+.landing {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.landing__wrap {
+  position: relative;
+  z-index: var(--z-content);
+  padding: var(--space-2);          /* 2rem */
+}
+
+.landing__bg {
+  position: absolute;
+  inset: 0;
+  z-index: var(--z-bg);
+  pointer-events: none;
+}
+
+.landing__bg-circle {
+  position: absolute;
+  width: 26rem;                     /* ~416px (snap p/ grid) */
+  height: 26rem;
+  border-radius: 50%;
+  background: var(--rosa-fundo);
+  opacity: .8;
+}
+
+.landing__bg-circle--tl { top: -8rem; left: -8rem; }  /* múltiplos de 16 */
+.landing__bg-circle--tr { top: 2rem;  right: -10rem; }/* 2rem / 10rem */

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Fredoka:wght@400;500;700&display=swap');
+@import "./variables.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    height:100%;
+}
+
+body {
+    background-color: var(--rosa-fundo);
+    color: var(--rosa-escuro);
+    font-family: var(--poppins);
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased; /* não sei se é realmente necessário */
+    -moz-osx-font-smoothing: grayscale;  /* não sei se é realmente necessário */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--fredoka);
+    font-weight: 500;
+}
+
+/* == Acessibilidade que o chat indicou == */
+:focus-visible { 
+    outline: 0.25rem solid var(--rose-medio); /* 4px */ 
+    outline-offset: 0.125rem; /* 2px */ 
+}
+
+/* UTILITÁRIOS */
+.container{width:min(var(--container-max),92vw);margin-inline:auto}
+.center-grid{display:grid;place-items:center}
+.visually-hidden{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(1px,1px,1px,1px)}
+
+/* ANIMAÇÕES */
+@media (prefers-reduced-motion:no-preference){
+    .fade-in{opacity:0;animation:fade .4s ease-out forwards}
+    .slide-up{transform:translateY(1rem);opacity:0;animation:up .4s ease-out forwards}
+    .delay-1{animation-delay:.08s}.delay-2{animation-delay:.16s}.delay-3{animation-delay:.24s}
+    @keyframes fade{to{opacity:1}}
+    @keyframes up{to{opacity:1;transform:none}}
+}

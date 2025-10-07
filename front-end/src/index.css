@@ -1,0 +1,21 @@
+/* 1) reset básico */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body, #root { height: 100%; }
+
+/* 2) tokens de design (cores da sua imagem) */
+:root{
+  --rosa-fundo: #FFE4E1;
+  --bege-input: #FDF8F0;
+  --rosa-medio: #EFA3B0;
+  --rosa-escuro: #C94C66;
+  --verde-suave: #A3B18A;
+  --cinza: #BFBFBF;
+  --amarelo: #FFF3B0;
+}
+
+body{
+  font-family: "Fredoka", system-ui, -apple-system, Arial, sans-serif;
+  background: var(--rosa-fundo);
+  color: var(--rosa-escuto);
+  line-height: 1.4;
+}
