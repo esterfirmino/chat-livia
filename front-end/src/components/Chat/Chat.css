@@ -1,0 +1,10 @@
+.chat{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;  
+}
+
+.chat-wrap {
+    width: 100%
+}

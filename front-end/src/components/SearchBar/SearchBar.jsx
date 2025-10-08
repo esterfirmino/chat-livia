@@ -1,7 +1,7 @@
 import "./SearchBar.css";
 import ArrowClaro from "../../assets/arrowClaro.svg";
 import ArrowEscuro from "../../assets/arrowEscuro.svg";
-import { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 
 export default function SearchBar() {
   const [isHovered, setIsHovered] = useState(false);
