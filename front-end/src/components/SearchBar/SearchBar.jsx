@@ -3,8 +3,9 @@ import ArrowClaro from "../../assets/arrowClaro.svg";
 import ArrowEscuro from "../../assets/arrowEscuro.svg";
 import React, { useState, useEffect, useRef } from "react";
 
-export default function SearchBar() {
+export default function SearchBar = ({ input, setInput, handleSend, isLoading }) =>{
   const [isHovered, setIsHovered] = useState(false);
+
 
   const handleSubmit = (e) => {
     e.preventDefault();

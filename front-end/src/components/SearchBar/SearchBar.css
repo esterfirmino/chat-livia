@@ -1,8 +1,4 @@
-/* ========================== */
-/*   SEARCH BAR - LivIA 🌸    */
-/* ========================== */
-
-/* container geral do formulário */
+/* == Container geral do formulário == */
 .search {
   display: grid;
   grid-template-columns: 1fr auto;
@@ -16,25 +12,30 @@
   margin: 0 auto;
 }
 
-/* campo de texto */
+/* == Campo de texto == */
 .search-input {
+  width: 100%;
+  min-height: 2.5rem;
+  max-height: 6rem;
+  max-height: 200px;
+  overflow-y: auto; 
+  resize:none;
   font-size: 1rem;
   font-family: var(--poppins);
+  padding: 1rem 1rem;
   background: transparent;
   border: none;
   outline: none;
-  padding: 1rem 1rem;
   color: var(--rosa-escuro);
-  width: 100%;
+  word-break: break-word;
 }
 
 .search-input::placeholder {
   color: var(--cinza);
 }
 
-/* ========================== */
-/*        BOTÃO ENVIAR        */
-/* ========================== */
+/* == Botão de enviar == */
+
 .search-btn {
   width: 3rem;
   height: 3rem;
