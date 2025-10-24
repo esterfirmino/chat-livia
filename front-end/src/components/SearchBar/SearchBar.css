@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 1fr auto;
   gap: var(--space-1);
-  background: var(--bege-input);
+  background: var(--bege);
   border: 0.125rem solid var(--rosa-escuro);
   border-radius: var(--radius-pill);
   padding: var(--space-1) var(--space-1) var(--space-1) var(--space-2);

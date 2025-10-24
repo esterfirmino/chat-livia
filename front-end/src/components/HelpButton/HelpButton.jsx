@@ -1,9 +1,9 @@
-import "./HelpButton.css"
+// import "./HelpButton.css"
 
-export default function HelpButton() {
-  return (
-    <button className="help" aria-label="Ajuda">
-      ?
-    </button>
-  );
-}
+// export default function HelpButton() {
+//   return (
+//     <button className="help" aria-label="Ajuda">
+//       ?
+//     </button>
+//   );
+// }

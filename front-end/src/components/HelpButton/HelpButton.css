@@ -1,17 +1,17 @@
-.help{
+/* .help{
   position: absolute;
-  top: 1rem;                                 /* 16px */
-  right: 1rem;                               /* 16px */
-  width: 3rem;                               /* 48px */
-  height: 3rem;                              /* 48px */
+  top: 1rem;                                 
+  right: 1rem;                               
+  width: 5rem;                               
+  height: 5rem;                              
   border-radius: 50%;
   border: none;
-  background: var(--amarelo);
-  color: var(--rosa-escuro);
+  background: var(--rosa-escuro);
+  color: var(--bege);
   font-weight: 700;
   cursor: pointer;
   box-shadow: var(--shadow-1);
   z-index: var(--z-fab);
 }
 
-.help:hover{ filter: brightness(0.95); }
+.help:hover{ filter: brightness(0.95); } */
